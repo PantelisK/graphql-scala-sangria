@@ -1,6 +1,6 @@
 ## HowToGraph - GraphQL with Sangria Tutorial codebase
 
-A code for GraphQL-Sangria Tutorial. Visit [HowtoGraphql.com](http://howtographql.com) to learn more.  
+https://www.howtographql.com/graphql-scala/1-getting-started/
 
 ### Running the example
 
@@ -8,7 +8,7 @@ A code for GraphQL-Sangria Tutorial. Visit [HowtoGraphql.com](http://howtographq
 sbt ~reStart
 ```
 
-SBT will automatically compile and restart the server whenever the source code changes.
+SBT (resolver plugin) will automatically compile and restart the server whenever the source code changes.
 
 After the server is started you can run queries interactively using [GraphiQL](https://github.com/graphql/graphiql) by opening [http://localhost:8080](http://localhost:8080) in a browser.
 
